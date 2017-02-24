@@ -7,10 +7,11 @@
 //
 
 #import "WedewTabBarController.h"
+#import "ToDoViewController.h"
 
 @interface WedewTabBarController ()
 
-@property (nonatomic, strong) UIViewController *toDoViewController;
+@property (nonatomic, strong) ToDoViewController *toDoViewController;
 @property (nonatomic, strong) UIViewController *accountViewController;
 
 @end
@@ -33,15 +34,17 @@
 
 
 - (void) setupViewControllers {
-    self.toDoViewController = [UIViewController new];
+    self.toDoViewController = [ToDoViewController new];
     self.accountViewController = [UIViewController new];
     
-    NSArray *viewControllers = @[self.toDoViewController, self.accountViewController];
+    UINavigationController *toDoNavController = [[UINavigationController alloc] initWithRootViewController:self.toDoViewController];
+    UINavigationController *accountNavController = [[UINavigationController alloc] initWithRootViewController:self.accountViewController];
+    
+    NSArray *viewControllers = @[toDoNavController, accountNavController];
     [self setViewControllers:viewControllers];
     
     [self setSelectedIndex:0];
     
-    [self setTitle:@"Wedew"];
     [[self.tabBar.items objectAtIndex:0] setTitle:[WedewTabBarController firstTitle]];
     [[self.tabBar.items objectAtIndex:1] setTitle:[WedewTabBarController secondTitle]];
     

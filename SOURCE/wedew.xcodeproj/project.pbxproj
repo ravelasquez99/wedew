@@ -14,6 +14,7 @@
 		D8BF45341E60316B00A54297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BF45331E60316B00A54297 /* Assets.xcassets */; };
 		D8BF45371E60316B00A54297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BF45351E60316B00A54297 /* LaunchScreen.storyboard */; };
 		D8BF45431E60324500A54297 /* WedewTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF45421E60324500A54297 /* WedewTabBarController.m */; };
+		D8BF45461E603B3900A54297 /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF45451E603B3900A54297 /* ToDoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D8BF45381E60316B00A54297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8BF45411E60324500A54297 /* WedewTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WedewTabBarController.h; path = Controller/WedewTabBarController.h; sourceTree = "<group>"; };
 		D8BF45421E60324500A54297 /* WedewTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WedewTabBarController.m; path = Controller/WedewTabBarController.m; sourceTree = "<group>"; };
+		D8BF45441E603B3900A54297 /* ToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToDoViewController.h; path = Controller/ToDoViewController.h; sourceTree = "<group>"; };
+		D8BF45451E603B3900A54297 /* ToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToDoViewController.m; path = Controller/ToDoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				D8BF452E1E60316B00A54297 /* ViewController.m */,
 				D8BF45411E60324500A54297 /* WedewTabBarController.h */,
 				D8BF45421E60324500A54297 /* WedewTabBarController.m */,
+				D8BF45441E603B3900A54297 /* ToDoViewController.h */,
+				D8BF45451E603B3900A54297 /* ToDoViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			files = (
 				D8BF452F1E60316B00A54297 /* ViewController.m in Sources */,
 				D8BF452C1E60316B00A54297 /* AppDelegate.m in Sources */,
+				D8BF45461E603B3900A54297 /* ToDoViewController.m in Sources */,
 				D8BF45431E60324500A54297 /* WedewTabBarController.m in Sources */,
 				D8BF45291E60316B00A54297 /* main.m in Sources */,
 			);
@@ -339,6 +345,7 @@
 				D8BF453D1E60316B00A54297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
