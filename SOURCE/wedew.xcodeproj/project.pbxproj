@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8BF45291E60316B00A54297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF45281E60316B00A54297 /* main.m */; };
+		D8BF452C1E60316B00A54297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF452B1E60316B00A54297 /* AppDelegate.m */; };
+		D8BF452F1E60316B00A54297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF452E1E60316B00A54297 /* ViewController.m */; };
+		D8BF45321E60316B00A54297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BF45301E60316B00A54297 /* Main.storyboard */; };
+		D8BF45341E60316B00A54297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BF45331E60316B00A54297 /* Assets.xcassets */; };
+		D8BF45371E60316B00A54297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BF45351E60316B00A54297 /* LaunchScreen.storyboard */; };
+		D8BF45431E60324500A54297 /* WedewTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF45421E60324500A54297 /* WedewTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8BF45241E60316B00A54297 /* wedew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wedew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BF45281E60316B00A54297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8BF452A1E60316B00A54297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8BF452B1E60316B00A54297 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8BF452D1E60316B00A54297 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8BF452E1E60316B00A54297 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8BF45311E60316B00A54297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8BF45331E60316B00A54297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8BF45361E60316B00A54297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8BF45381E60316B00A54297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BF45411E60324500A54297 /* WedewTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WedewTabBarController.h; path = Controller/WedewTabBarController.h; sourceTree = "<group>"; };
+		D8BF45421E60324500A54297 /* WedewTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WedewTabBarController.m; path = Controller/WedewTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8BF45211E60316B00A54297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8BF451B1E60316B00A54297 = {
+			isa = PBXGroup;
+			children = (
+				D8BF45261E60316B00A54297 /* wedew */,
+				D8BF45251E60316B00A54297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BF45251E60316B00A54297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF45241E60316B00A54297 /* wedew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8BF45261E60316B00A54297 /* wedew */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF452A1E60316B00A54297 /* AppDelegate.h */,
+				D8BF452B1E60316B00A54297 /* AppDelegate.m */,
+				D8BF45401E60318F00A54297 /* Controller */,
+				D8BF453F1E60318900A54297 /* View */,
+				D8BF453E1E60318100A54297 /* Model */,
+				D8BF45301E60316B00A54297 /* Main.storyboard */,
+				D8BF45331E60316B00A54297 /* Assets.xcassets */,
+				D8BF45351E60316B00A54297 /* LaunchScreen.storyboard */,
+				D8BF45381E60316B00A54297 /* Info.plist */,
+				D8BF45271E60316B00A54297 /* Supporting Files */,
+			);
+			path = wedew;
+			sourceTree = "<group>";
+		};
+		D8BF45271E60316B00A54297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF45281E60316B00A54297 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8BF453E1E60318100A54297 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D8BF453F1E60318900A54297 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D8BF45401E60318F00A54297 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF452D1E60316B00A54297 /* ViewController.h */,
+				D8BF452E1E60316B00A54297 /* ViewController.m */,
+				D8BF45411E60324500A54297 /* WedewTabBarController.h */,
+				D8BF45421E60324500A54297 /* WedewTabBarController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8BF45231E60316B00A54297 /* wedew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BF453B1E60316B00A54297 /* Build configuration list for PBXNativeTarget "wedew" */;
+			buildPhases = (
+				D8BF45201E60316B00A54297 /* Sources */,
+				D8BF45211E60316B00A54297 /* Frameworks */,
+				D8BF45221E60316B00A54297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wedew;
+			productName = wedew;
+			productReference = D8BF45241E60316B00A54297 /* wedew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8BF451C1E60316B00A54297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ricky;
+				TargetAttributes = {
+					D8BF45231E60316B00A54297 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8BF451F1E60316B00A54297 /* Build configuration list for PBXProject "wedew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8BF451B1E60316B00A54297;
+			productRefGroup = D8BF45251E60316B00A54297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8BF45231E60316B00A54297 /* wedew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8BF45221E60316B00A54297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BF45371E60316B00A54297 /* LaunchScreen.storyboard in Resources */,
+				D8BF45341E60316B00A54297 /* Assets.xcassets in Resources */,
+				D8BF45321E60316B00A54297 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8BF45201E60316B00A54297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BF452F1E60316B00A54297 /* ViewController.m in Sources */,
+				D8BF452C1E60316B00A54297 /* AppDelegate.m in Sources */,
+				D8BF45431E60324500A54297 /* WedewTabBarController.m in Sources */,
+				D8BF45291E60316B00A54297 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8BF45301E60316B00A54297 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BF45311E60316B00A54297 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8BF45351E60316B00A54297 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BF45361E60316B00A54297 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8BF45391E60316B00A54297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8BF453A1E60316B00A54297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8BF453C1E60316B00A54297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wedew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyvelasquez.wedew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8BF453D1E60316B00A54297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wedew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rickyvelasquez.wedew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8BF451F1E60316B00A54297 /* Build configuration list for PBXProject "wedew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BF45391E60316B00A54297 /* Debug */,
+				D8BF453A1E60316B00A54297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8BF453B1E60316B00A54297 /* Build configuration list for PBXNativeTarget "wedew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BF453C1E60316B00A54297 /* Debug */,
+				D8BF453D1E60316B00A54297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8BF451C1E60316B00A54297 /* Project object */;
+}
