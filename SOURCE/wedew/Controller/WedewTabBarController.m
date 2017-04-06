@@ -14,12 +14,13 @@
 @property (nonatomic, strong) ToDoViewController *toDoViewController;
 @property (nonatomic, strong) UIViewController *accountViewController;
 
+
 @end
 
+static NSString *firstTitle = @"To Dos";
+static NSString *secondTitle = @"Account";
+
 @implementation WedewTabBarController
-+(NSString *)firstTitle { return @"To Dos";}
-+(NSString *)secondTitle { return @"Account";}
-    
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,8 +46,8 @@
     
     [self setSelectedIndex:0];
     
-    [[self.tabBar.items objectAtIndex:0] setTitle:[WedewTabBarController firstTitle]];
-    [[self.tabBar.items objectAtIndex:1] setTitle:[WedewTabBarController secondTitle]];
+    [[self.tabBar.items objectAtIndex:0] setTitle: firstTitle];
+    [[self.tabBar.items objectAtIndex:1] setTitle: secondTitle];
     
     self.toDoViewController.view.backgroundColor = [UIColor greenColor];
     self.accountViewController.view.backgroundColor = [UIColor blueColor];
