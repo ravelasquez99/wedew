@@ -57,6 +57,13 @@
     self.navigationController.navigationBar.backgroundColor = StyleGuide.primaryColor;
     self.navigationController.navigationBar.barTintColor = StyleGuide.primaryColor;
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+    UIBarButtonItem *plus = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(plusButtonPressed:)];
+    plus.tintColor = [UIColor whiteColor];
+    [self.navigationItem setRightBarButtonItem:plus];
+}
+
+- (void)plusButtonPressed:(id)sender {
+    NSLog(@"plus pressed");
 }
 
 //MARK:- Tableview Methods
