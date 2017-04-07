@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81B819E1E96817500B19043 /* StyleGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B819D1E96817500B19043 /* StyleGuide.m */; };
 		D8BF45291E60316B00A54297 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF45281E60316B00A54297 /* main.m */; };
 		D8BF452C1E60316B00A54297 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF452B1E60316B00A54297 /* AppDelegate.m */; };
 		D8BF452F1E60316B00A54297 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BF452E1E60316B00A54297 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D81B819C1E96817500B19043 /* StyleGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StyleGuide.h; path = Model/StyleGuide.h; sourceTree = "<group>"; };
+		D81B819D1E96817500B19043 /* StyleGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StyleGuide.m; path = Model/StyleGuide.m; sourceTree = "<group>"; };
 		D8BF45241E60316B00A54297 /* wedew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wedew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BF45281E60316B00A54297 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8BF452A1E60316B00A54297 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 		D8BF453E1E60318100A54297 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D81B819C1E96817500B19043 /* StyleGuide.h */,
+				D81B819D1E96817500B19043 /* StyleGuide.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			files = (
 				D8BF452F1E60316B00A54297 /* ViewController.m in Sources */,
 				D8BF452C1E60316B00A54297 /* AppDelegate.m in Sources */,
+				D81B819E1E96817500B19043 /* StyleGuide.m in Sources */,
 				D8BF45461E603B3900A54297 /* ToDoViewController.m in Sources */,
 				D8BF45431E60324500A54297 /* WedewTabBarController.m in Sources */,
 				D8BF45291E60316B00A54297 /* main.m in Sources */,

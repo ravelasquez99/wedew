@@ -7,6 +7,7 @@
 //
 
 #import "ToDoViewController.h"
+#import "StyleGuide.h"
 
 @interface ToDoViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableview;
@@ -48,7 +49,14 @@
         [[self.tableview.widthAnchor constraintEqualToAnchor:self.view.widthAnchor] setActive:true];
         [[self.tableview.heightAnchor constraintEqualToAnchor:self.view.heightAnchor] setActive: true];
         self.didSetupView = YES;
+        [self setupNavBar];
     }
+}
+
+- (void)setupNavBar {
+    self.navigationController.navigationBar.backgroundColor = StyleGuide.primaryColor;
+    self.navigationController.navigationBar.barTintColor = StyleGuide.primaryColor;
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
 }
 
 //MARK:- Tableview Methods
