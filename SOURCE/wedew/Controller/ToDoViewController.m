@@ -63,7 +63,6 @@
 }
 
 - (void)plusButtonPressed:(id)sender {
-    NSLog(@"plus pressed");
 }
 
 //MARK:- Tableview Methods
